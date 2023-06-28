@@ -1,147 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo I - Primeiros Passos com HTML</title>
-  <style>
-    #index ul {
-       list-style: none;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo I - Primeiros Passos com HTML</title>
+    <style>
+      #index ul {
+        list-style: none;
+      }
 
-    a {
-       text-decoration: none;
-       color: black;
-    }
+      a {
+        text-decoration: none;
+        color: black;
+      }
 
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-	<h1>Módulo 1 - Primeiros Passos com HTML</h1>
-  <hr />
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
 
-  <h2 id="index"><u>Índice</u></h2>
-  <ul>
-    <li><a href="#history">História dos computadores</a></li>
-    <li><a href="#clients">O que são <i>Clients</i>?</a></li>
-    <li><a href="#servers">O que são <i>Servers</i>?</a></li>
-    <li><a href="#structure">Estrutura básica de um HTML</a></li>
-    <li><a href="#lists">Listas ordenadas e não ordenadas</a></li>
-    <li><a href="#links">Referências</a></li>
-  </ul>
+    <h2 id="index"><u>Índice</u></h2>
+    <ul>
+      <li><a href="#history">História dos computadores</a></li>
+      <li>
+        <a href="#clients">O que são <i>Clients</i>?</a>
+      </li>
+      <li>
+        <a href="#servers">O que são <i>Servers</i>?</a>
+      </li>
+      <li><a href="#structure">Estrutura básica de um HTML</a></li>
+      <li><a href="#lists">Listas ordenadas e não ordenadas</a></li>
+      <li><a href="#links">Referências</a></li>
+    </ul>
 
-  <h2 id="history"><u>História dos computadores</u></h2>
+    <h2 id="history"><u>História dos computadores</u></h2>
 
-	<p><strong>Os computadores</strong> têm uma história fascinante. Desde máquinas mecânicas primitivas, como o ábaco, até os avançados dispositivos eletrônicos de hoje, a evolução dos computadores tem sido notável.</p>
-  
-  <p>No século XIX, inventores como <i>Charles Babbage</i> conceberam máquinas analíticas, precursoras dos computadores modernos. No entanto, foi em 1945 que o primeiro computador eletrônico, o ENIAC, foi criado por <i>John Mauchly</i> e <i>J. Presper Eckert</i>. Ele ocupava um grande espaço e podia executar cálculos complexos.</p>
-  
-  <p>Em 1969, a <u>ARPANET</u> (<i>Advanced Research Projects Agency Network</i>) foi criada pelo Departamento de Defesa dos EUA, marcando a criação da primeira rede de computadores interligados. A ARPANET foi um marco importante que deu origem à internet como a conhecemos hoje.</p>
-  
-  <p>A origem do termo <i>'bug'</i> remonta aos primeiros computadores. Em 1947, durante o desenvolvimento do computador <i>Mark II</i>, os pesquisadores encontraram um problema em seu sistema. Eles descobriram que uma mariposa havia ficado presa entre os relés do computador, causando o mau funcionamento. Essa ocorrência foi registrada como um <i>'bug'</i> no log do computador, popularizando o termo para descrever problemas técnicos.</p>
+    <p>
+      <strong>Os computadores</strong> têm uma história fascinante. Desde
+      máquinas mecânicas primitivas, como o ábaco, até os avançados dispositivos
+      eletrônicos de hoje, a evolução dos computadores tem sido notável.
+    </p>
 
-  <mark><a href="#index">(Voltar ao Índice)</a></mark>
+    <p>
+      No século XIX, inventores como <i>Charles Babbage</i> conceberam máquinas
+      analíticas, precursoras dos computadores modernos. No entanto, foi em 1945
+      que o primeiro computador eletrônico, o ENIAC, foi criado por
+      <i>John Mauchly</i> e <i>J. Presper Eckert</i>. Ele ocupava um grande
+      espaço e podia executar cálculos complexos.
+    </p>
 
-  <h2 id="clients"><u>O que são <i>Clients</i>?</u></h2>
+    <p>
+      Em 1969, a <u>ARPANET</u> (<i>Advanced Research Projects Agency Network</i
+      >) foi criada pelo Departamento de Defesa dos EUA, marcando a criação da
+      primeira rede de computadores interligados. A ARPANET foi um marco
+      importante que deu origem à internet como a conhecemos hoje.
+    </p>
 
-  <p>Na computação, o termo <i><u>clients</u></i> refere-se a dispositivos, programas ou serviços que solicitam e recebem informações de um servidor. Os clientes são componentes essenciais da arquitetura <i>cliente-servidor</i>, que é amplamente utilizada em redes e sistemas distribuídos.</p>
-  
-  <p>Um cliente pode ser um dispositivo físico, como um <u>computador</u>, <u>laptop</u>, <u>smartphone</u> ou <u>tablet</u>, que se conecta a uma rede para acessar recursos ou serviços. Além disso, um cliente também pode ser um software ou aplicativo específico que opera em um dispositivo e interage com um servidor para obter dados, processar informações ou executar determinadas ações.</p>
-   
-  <p>Os clientes enviam solicitações para servidores, como solicitações de <b>páginas da web</b>, <b>downloads de arquivos</b>, <b>envio de mensagens</b> ou <b>acesso a serviços online</b>. Os servidores, por sua vez, processam essas solicitações e fornecem as respostas adequadas ao cliente.</p>
-   
-  <p>Em resumo, os clientes são os pontos de entrada e interação para os usuários em um sistema cliente-servidor, permitindo o acesso aos recursos e serviços disponibilizados pelos servidores.</p>
+    <p>
+      A origem do termo <i>'bug'</i> remonta aos primeiros computadores. Em
+      1947, durante o desenvolvimento do computador <i>Mark II</i>, os
+      pesquisadores encontraram um problema em seu sistema. Eles descobriram que
+      uma mariposa havia ficado presa entre os relés do computador, causando o
+      mau funcionamento. Essa ocorrência foi registrada como um <i>'bug'</i> no
+      log do computador, popularizando o termo para descrever problemas
+      técnicos.
+    </p>
 
-	<mark><a href="#index">(Voltar ao Índice)</a></mark>
+    <mark><a href="#index">(Voltar ao Índice)</a></mark>
 
-	<h2 id="servers"><u>O que são <i>Servers</i>?</u></h2>
+    <h2 id="clients">
+      <u>O que são <i>Clients</i>?</u>
+    </h2>
 
-	<p>O termo <i><u>servers</u></i> (servidores) refere-se a computadores ou sistemas de software dedicados a fornecer serviços, recursos ou dados a outros dispositivos, programas ou clientes em uma rede. Os servidores são componentes fundamentais da arquitetura cliente-servidor e desempenham um papel crucial no processamento e armazenamento de informações em redes e sistemas distribuídos.</p>
-  
-  <p>Um servidor pode ser um <strong>computador físico</strong> de alta capacidade, projetado para lidar com um grande volume de solicitações e executar tarefas de processamento intensivas. Também existem <i>servidores virtuais</i>, que são instâncias virtuais executadas em um ambiente compartilhado, geralmente em um servidor físico. Esses servidores virtuais podem ser dimensionados e configurados conforme necessário para atender às demandas de processamento e armazenamento.</p>
-  
-  <p>Os servidores oferecem uma variedade de serviços, como <u>hospedagem de sites</u>, <u>e-mail</u>, <u>armazenamento de arquivos</u>, <u>processamento de banco de dados</u>, <u>serviços de aplicativos</u>, <u>streaming de mídia</u>, <u>jogos online</u> e muito mais. Eles aceitam solicitações de clientes e respondem a essas solicitações, fornecendo os recursos ou serviços solicitados.</p>
-  
-  <p>Além disso, os servidores podem ser especializados em diferentes áreas, como <small>servidores web</small> (que hospedam sites e aplicativos), <small>servidores de e-mail</small> (que gerenciam o envio e recebimento de e-mails), <small>servidores de banco de dados</small> (que armazenam e processam dados), <small>servidores de arquivos</small> (que permitem o compartilhamento e armazenamento de arquivos), entre outros.</p>
+    <p>
+      Na computação, o termo <i><u>clients</u></i> refere-se a dispositivos,
+      programas ou serviços que solicitam e recebem informações de um servidor.
+      Os clientes são componentes essenciais da arquitetura
+      <i>cliente-servidor</i>, que é amplamente utilizada em redes e sistemas
+      distribuídos.
+    </p>
 
-  <p>Em resumo, os servidores são computadores ou sistemas de software dedicados a fornecer serviços, recursos ou dados a outros dispositivos, programas ou clientes em uma rede, desempenhando um papel central na arquitetura cliente-servidor e facilitando a comunicação e a entrega de informações na computação.</p>
+    <p>
+      Um cliente pode ser um dispositivo físico, como um <u>computador</u>,
+      <u>laptop</u>, <u>smartphone</u> ou <u>tablet</u>, que se conecta a uma
+      rede para acessar recursos ou serviços. Além disso, um cliente também pode
+      ser um software ou aplicativo específico que opera em um dispositivo e
+      interage com um servidor para obter dados, processar informações ou
+      executar determinadas ações.
+    </p>
 
-	<mark><a href="#index">(Voltar ao Índice)</a></mark>
+    <p>
+      Os clientes enviam solicitações para servidores, como solicitações de
+      <b>páginas da web</b>, <b>downloads de arquivos</b>,
+      <b>envio de mensagens</b> ou <b>acesso a serviços online</b>. Os
+      servidores, por sua vez, processam essas solicitações e fornecem as
+      respostas adequadas ao cliente.
+    </p>
 
-  <h2 id="structure"><u>Estrutura básica de um HTML</u></h2>
+    <p>
+      Em resumo, os clientes são os pontos de entrada e interação para os
+      usuários em um sistema cliente-servidor, permitindo o acesso aos recursos
+      e serviços disponibilizados pelos servidores.
+    </p>
 
-	<p>Um documento HTML segue a seguinte estrutura:</p>
+    <mark><a href="#index">(Voltar ao Índice)</a></mark>
 
-  <p><strong><i>&lt;!DOCTYPE html&gt;</i></strong>: É a declaração do tipo de documento, especificando que o documento é um arquivo HTML.</p>
-  
-  <p><strong><i>&lt;html&gt;</i></strong>: É o elemento raiz do documento HTML, englobando todo o conteúdo.</p>
-  
-  <p><strong><i>&lt;head&gt;</i></strong>: É a seção que contém informações sobre o documento, como o título da página e meta-informações. O conteúdo dentro dessa seção não é exibido diretamente na página, mas fornece instruções e configurações para o navegador.</p>
-  
-  <p><strong><i>&lt;title&gt;</i></strong>: É a tag que define o título da página, que é exibido na barra de título do navegador ou na guia do navegador.</p>
-  
-  <p><strong><i>&lt;body&gt;</i></strong>: É a seção que contém todo o conteúdo visível da página, como textos, imagens, links e outros elementos HTML. É dentro dessa seção que a maioria dos elementos e tags HTML são utilizados para estruturar e exibir o conteúdo da página.</p>
+    <h2 id="servers">
+      <u>O que são <i>Servers</i>?</u>
+    </h2>
 
-	<blockquote>
-		<p><strong><abbr title="Observação">Obs.:</abbr></strong> Dentro do elemento <small><i>&lt;body&gt;</i></small>, você pode adicionar qualquer conteúdo que desejar para criar sua página, incluindo parágrafos <small><i>&lt;p&gt;</i></small>, cabeçalhos <small><i>&lt;h1&gt;</i></small> a <small><i>&lt;h6&gt;</i></small>, imagens <small><i>&lt;img&gt;</i></small>, links <small><i>&lt;a&gt;</i></small>, listas <small><i>&lt;ul&gt;</i></small>, entre outros elementos HTML.</p>
-	</blockquote>
+    <p>
+      O termo <i><u>servers</u></i> (servidores) refere-se a computadores ou
+      sistemas de software dedicados a fornecer serviços, recursos ou dados a
+      outros dispositivos, programas ou clientes em uma rede. Os servidores são
+      componentes fundamentais da arquitetura cliente-servidor e desempenham um
+      papel crucial no processamento e armazenamento de informações em redes e
+      sistemas distribuídos.
+    </p>
 
-	<mark><a href="#index">(Voltar ao Índice)</a></mark>
+    <p>
+      Um servidor pode ser um <strong>computador físico</strong> de alta
+      capacidade, projetado para lidar com um grande volume de solicitações e
+      executar tarefas de processamento intensivas. Também existem
+      <i>servidores virtuais</i>, que são instâncias virtuais executadas em um
+      ambiente compartilhado, geralmente em um servidor físico. Esses servidores
+      virtuais podem ser dimensionados e configurados conforme necessário para
+      atender às demandas de processamento e armazenamento.
+    </p>
 
-	<h2 id="lists"><u>Listas ordenadas e não ordenadas</u></h2>
+    <p>
+      Os servidores oferecem uma variedade de serviços, como
+      <u>hospedagem de sites</u>, <u>e-mail</u>,
+      <u>armazenamento de arquivos</u>, <u>processamento de banco de dados</u>,
+      <u>serviços de aplicativos</u>, <u>streaming de mídia</u>,
+      <u>jogos online</u> e muito mais. Eles aceitam solicitações de clientes e
+      respondem a essas solicitações, fornecendo os recursos ou serviços
+      solicitados.
+    </p>
 
-	<p>Em HTML, as listas são usadas para agrupar itens relacionados. Existem dois tipos principais de listas: listas não ordenadas <i><small>&lt;ul&gt;</small></i> e listas ordenadas <i><small>&lt;ol&gt;</small></i>. Aqui estão as diferenças entre eles:</p>
+    <p>
+      Além disso, os servidores podem ser especializados em diferentes áreas,
+      como <small>servidores web</small> (que hospedam sites e aplicativos),
+      <small>servidores de e-mail</small> (que gerenciam o envio e recebimento
+      de e-mails), <small>servidores de banco de dados</small> (que armazenam e
+      processam dados), <small>servidores de arquivos</small> (que permitem o
+      compartilhamento e armazenamento de arquivos), entre outros.
+    </p>
 
-	<h3><u>Listas não ordenadas:</u></h3>
-  <p>Uma lista não ordenada é usada para apresentar itens em uma ordem não específica. Os itens da lista são marcados com pontos ou marcadores. Cada item é definido dentro de uma tag <i><small>&lt;li&gt;</small></i>.</p>
-  
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ul>
+    <p>
+      Em resumo, os servidores são computadores ou sistemas de software
+      dedicados a fornecer serviços, recursos ou dados a outros dispositivos,
+      programas ou clientes em uma rede, desempenhando um papel central na
+      arquitetura cliente-servidor e facilitando a comunicação e a entrega de
+      informações na computação.
+    </p>
 
-  <h3><u>Listas ordenadas:</u></h3>
-  <p>Uma lista ordenada é usada para apresentar itens em uma ordem específica. Os itens da lista são numerados sequencialmente ou em ordem alfabética. Cada item é definido dentro de uma tag <i><small>&lt;li&gt;</small></i>.</p>
-  
-  <ol>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ol>
+    <mark><a href="#index">(Voltar ao Índice)</a></mark>
 
-  <p>As listas podem ser aninhadas, permitindo a criação de listas dentro de listas para representar hierarquias de itens.</p>
-  
-  <p>Por exemplo:</p>
-  
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2
-      <ul>
-        <li>Subitem 2.1</li>
-        <li>Subitem 2.2</li>
-      </ul>
-    </li>
-    <li>Item 3</li>
-  </ul>
-  
-  <p>Neste exemplo, uma lista não ordenada contém outra lista não ordenada aninhada dentro de um de seus itens.</p>
+    <h2 id="structure"><u>Estrutura básica de um HTML</u></h2>
 
-	<mark><a href="#index">(Voltar ao Índice)</a></mark>
+    <p>Um documento HTML segue a seguinte estrutura:</p>
 
-	<h2 id="links"><u>Referências</u></h2>
+    <p>
+      <strong><i>&lt;!DOCTYPE html&gt;</i></strong
+      >: É a declaração do tipo de documento, especificando que o documento é um
+      arquivo HTML.
+    </p>
 
-	<ul>
-    <li><a href="http://dio.me" target="_blank">Dio.me</a></li>
-    <li><a href="http://w3c.org" target="_blank">W3C</a></li>
-		<li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN</a></li>
-		<li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
-  </ul>
+    <p>
+      <strong><i>&lt;html&gt;</i></strong
+      >: É o elemento raiz do documento HTML, englobando todo o conteúdo.
+    </p>
 
-	<mark><a href="#index">(Voltar ao Índice)</a></mark>
+    <p>
+      <strong><i>&lt;head&gt;</i></strong
+      >: É a seção que contém informações sobre o documento, como o título da
+      página e meta-informações. O conteúdo dentro dessa seção não é exibido
+      diretamente na página, mas fornece instruções e configurações para o
+      navegador.
+    </p>
 
-</body>
+    <p>
+      <strong><i>&lt;title&gt;</i></strong
+      >: É a tag que define o título da página, que é exibido na barra de título
+      do navegador ou na guia do navegador.
+    </p>
+
+    <p>
+      <strong><i>&lt;body&gt;</i></strong
+      >: É a seção que contém todo o conteúdo visível da página, como textos,
+      imagens, links e outros elementos HTML. É dentro dessa seção que a maioria
+      dos elementos e tags HTML são utilizados para estruturar e exibir o
+      conteúdo da página.
+    </p>
+
+    <blockquote>
+      <p>
+        <strong><abbr title="Observação">Obs.:</abbr></strong> Dentro do
+        elemento <small><i>&lt;body&gt;</i></small
+        >, você pode adicionar qualquer conteúdo que desejar para criar sua
+        página, incluindo parágrafos <small><i>&lt;p&gt;</i></small
+        >, cabeçalhos <small><i>&lt;h1&gt;</i></small> a
+        <small><i>&lt;h6&gt;</i></small
+        >, imagens <small><i>&lt;img&gt;</i></small
+        >, links <small><i>&lt;a&gt;</i></small
+        >, listas <small><i>&lt;ul&gt;</i></small
+        >, entre outros elementos HTML.
+      </p>
+    </blockquote>
+
+    <mark><a href="#index">(Voltar ao Índice)</a></mark>
+
+    <h2 id="lists"><u>Listas ordenadas e não ordenadas</u></h2>
+
+    <p>
+      Em HTML, as listas são usadas para agrupar itens relacionados. Existem
+      dois tipos principais de listas: listas não ordenadas
+      <i><small>&lt;ul&gt;</small></i> e listas ordenadas
+      <i><small>&lt;ol&gt;</small></i
+      >. Aqui estão as diferenças entre eles:
+    </p>
+
+    <h3><u>Listas não ordenadas:</u></h3>
+    <p>
+      Uma lista não ordenada é usada para apresentar itens em uma ordem não
+      específica. Os itens da lista são marcados com pontos ou marcadores. Cada
+      item é definido dentro de uma tag <i><small>&lt;li&gt;</small></i
+      >.
+    </p>
+
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <h3><u>Listas ordenadas:</u></h3>
+    <p>
+      Uma lista ordenada é usada para apresentar itens em uma ordem específica.
+      Os itens da lista são numerados sequencialmente ou em ordem alfabética.
+      Cada item é definido dentro de uma tag <i><small>&lt;li&gt;</small></i
+      >.
+    </p>
+
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <p>
+      As listas podem ser aninhadas, permitindo a criação de listas dentro de
+      listas para representar hierarquias de itens.
+    </p>
+
+    <p>Por exemplo:</p>
+
+    <ul>
+      <li>Item 1</li>
+      <li>
+        Item 2
+        <ul>
+          <li>Subitem 2.1</li>
+          <li>Subitem 2.2</li>
+        </ul>
+      </li>
+      <li>Item 3</li>
+    </ul>
+
+    <p>
+      Neste exemplo, uma lista não ordenada contém outra lista não ordenada
+      aninhada dentro de um de seus itens.
+    </p>
+
+    <mark><a href="#index">(Voltar ao Índice)</a></mark>
+
+    <h2 id="links"><u>Referências:</u></h2>
+
+    <ul>
+      <li><a href="http://dio.me" target="_blank">Dio.me</a></li>
+      <li><a href="http://w3c.org" target="_blank">W3C</a></li>
+      <li>
+        <a
+          href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+          target="_blank"
+          >MDN</a
+        >
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a>
+      </li>
+    </ul>
+
+    <mark><a href="#index">(Voltar ao Índice)</a></mark>
+  </body>
 </html>
